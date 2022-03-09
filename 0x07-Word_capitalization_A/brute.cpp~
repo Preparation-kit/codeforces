@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+void solving(void);
+
+int main(void)
+{
+	int queries = 0;
+	string line = "";
+
+	while (queries--)
+	{
+		cin >> line;
+		cout << lin << "\n";
+
+
+		solving();
+	}
+
+	return (0);
+}
+
+void solving(void)
+{
+	
+}

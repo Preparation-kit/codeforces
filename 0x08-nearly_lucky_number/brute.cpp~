@@ -1,0 +1,75 @@
+#include <iostream>
+
+using namespace std;
+
+void solving(void);
+
+
+int main(void)
+{
+	int queries = 0;
+	string line = "";
+
+	cin >> queries;
+
+	while (queries--)
+	{
+		cin >> line;
+		cout << line << "\n";
+
+		solving();
+	}
+
+	return 0;
+}
+
+
+void solving(void)
+{
+	string num = "";
+	int count = 0, count1 = 0, ch = 0;
+	int s[3] = {-1, 0, 0};
+	int flag = 0;
+
+	cin >> num;
+	cout << num << "\n";
+
+
+	for (int i = 0; i < (int) num.length(); ++i)
+	{
+		ch = (int) num[i];
+		if (ch == 52 || ch == 55)
+		{
+			// cout << "character " << ch << "\n";
+			if (s[0] == -1)
+			{
+				s[0] = i;
+				// cout << "dsldkl " << s[0] << "\n";
+				i++;
+				ch = (int) num[i];
+			}
+
+			if (s[0] + 1 == i)
+			{
+				// cout << "hel " << ch << "\n";
+				s[0] = i;
+				s[1] += ch == 52 ? 1 : 0;
+				s[2] += ch == 55 ? 1 : 0;
+			}
+			else
+			{
+				// cout << "active " << i << "\n";
+				flag = 1;
+				break;
+			}
+		}
+	}
+
+	if (flag == 1 || s[0] == -1 || s[1] == 0 || s[2] == 0)
+	{
+		cout << "NO" << "\n";
+		return;
+	}
+
+	cout << "YES" << "\n";
+}

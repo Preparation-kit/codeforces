@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+void solving(void);
+
+int main(void)
+{
+	int queries = 0;
+	string line = "";
+
+	while (queries--)
+	{
+		cin >> line;
+		cout << line << "\n";
+
+		solving();
+	}
+
+	return 0;
+}
+
+void solving(void)
+{
+	string sum_string = "";
+
+	cin >> sum_string;
+
+	cout << sum_string << "\n";
+
+}
