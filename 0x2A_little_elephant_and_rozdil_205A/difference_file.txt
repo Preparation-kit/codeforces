@@ -1,0 +1,49 @@
+2d1
+< arr[0] 6 arr[1] 1 arr[2] 2
+5d3
+< arr[0] 4 arr[1] 1 arr[2] 2
+8,9d5
+< arr[0] 6 arr[1] 1 arr[2] 3
+< arr[0] 1 arr[1] 1 arr[2] 4
+14,15d9
+< arr[0] 10 arr[1] 1 arr[2] 2
+< arr[0] 10 arr[1] 2 arr[2] 5
+18,19d11
+< arr[0] 9 arr[1] 1 arr[2] 2
+< arr[0] 9 arr[1] 2 arr[2] 3
+22d13
+< arr[0] 1 arr[1] 1 arr[2] 2
+25d15
+< arr[0] 1 arr[1] 1 arr[2] 2
+28,32d17
+< arr[0] 17 arr[1] 1 arr[2] 2
+< arr[0] 15 arr[1] 1 arr[2] 3
+< arr[0] 13 arr[1] 1 arr[2] 4
+< arr[0] 3 arr[1] 1 arr[2] 5
+< arr[0] 1 arr[1] 1 arr[2] 9
+35d19
+< arr[0] 2 arr[1] 1 arr[2] 2
+38,39d21
+< arr[0] 8 arr[1] 1 arr[2] 3
+< arr[0] 4 arr[1] 1 arr[2] 4
+42d23
+< arr[0] 2 arr[1] 1 arr[2] 2
+45d25
+< arr[0] 1 arr[1] 1 arr[2] 3
+48d27
+< arr[0] 3 arr[1] 1 arr[2] 2
+53,54d31
+< arr[0] 18 arr[1] 1 arr[2] 2
+< arr[0] 2 arr[1] 1 arr[2] 3
+57d33
+< arr[0] 2 arr[1] 1 arr[2] 2
+62,65d37
+< arr[0] 10 arr[1] 1 arr[2] 2
+< arr[0] 9 arr[1] 1 arr[2] 3
+< arr[0] 5 arr[1] 1 arr[2] 4
+< arr[0] 1 arr[1] 1 arr[2] 7
+68,71d39
+< arr[0] 12 arr[1] 1 arr[2] 2
+< arr[0] 5 arr[1] 1 arr[2] 3
+< arr[0] 5 arr[1] 2 arr[2] 6
+< arr[0] 1 arr[1] 1 arr[2] 8
