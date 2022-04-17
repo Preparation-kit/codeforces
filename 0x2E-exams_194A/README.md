@@ -2,7 +2,8 @@
 
 ## Explained
 
-![]()
+![example1](https://github.com/Preparation-kit/codeforces/blob/main/0x2E-exams_194A/Captura1.JPG)
+![example1](https://github.com/Preparation-kit/codeforces/blob/main/0x2E-exams_194A/Captura2.JPG)
 
 ## Run
 
